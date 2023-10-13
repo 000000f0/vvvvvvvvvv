@@ -1,0 +1,81 @@
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the entire app */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f4;
+  }
+  
+  /* Header styles */
+
+  
+  
+  .finance-app-header h1 {
+    font-size: 24px;
+  }
+  
+  /* Main content styles */
+  .finance-app-content {
+    padding: 20px;
+  }
+  
+ 
+  
+/* CSS for the chat bubbles */
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.message {
+  border-radius: 0px;
+  padding: 8px 12px;
+  margin: 5px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.user {
+  background-color: #007bff; /* Blue for user messages */
+  color: #fff; /* White text for user messages */
+  align-self: flex-end;
+}
+
+.bot {
+  background-color: #e0e0e0; /* Gray for bot messages */
+  color: #000; /* Black text for bot messages */
+  align-self: flex-start;
+}
+
+/* CSS for the chat input */
+.chat-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+  
